@@ -34,5 +34,11 @@ export default {
     font-family:'Gilroy';
     color: blue;
     font-weight: bold;
+
+
+    /*comentario*/
 }
 </style>
+
+
+
