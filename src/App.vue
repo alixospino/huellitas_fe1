@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="app">
     <div class="header">
-      <h1>Huellitas</h1>
+      <h1>Huellitas.com</h1>
       <nav class="registro"  v-if="is_auth">
         <button @click="loadHome">Inicio</button>
         <button @click="loadGuarderia">Guarderia</button>   <!--esta parte la cambiaria por productos o medios p-->
@@ -121,7 +121,7 @@ export default {
   h1{
     font-size: 45px;
     font-family: 'Gilroy';
-    color: #E5E7E9;
+    color: #17191a;
   }
 
   .header{
@@ -129,8 +129,8 @@ export default {
     height: 10vh;
     min-height: 100px;
 
-    background-color: #283747 ;
-    color:#E5E7E9 ;
+    background-color: #bff0af ;
+    color:#212325 ;
 
     display: flex;
     justify-content: space-between;
@@ -205,10 +205,10 @@ export default {
 
   .footer{
     width: 100%;
-    height: 8vh;
+    height: 2vh;
     min-height: 80px;
-    background-color: #283747;
-    color: #E5E7E9;
+    background-color: #bcc7dc;
+    
   }
 
   .footer h2 {
@@ -217,6 +217,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #17191a;
   }
 
 
